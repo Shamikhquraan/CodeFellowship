@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb819ccc-ed0a-40f7-829b-5abd6165fd8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Controllers/AppUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Repositories/ApplicationUserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Repositories/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/CodefellowshipApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Controllers/AppUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Models/AppUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Models/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Repositories/ApplicationUserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Repositories/PostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Security/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/bin/test/com/example/codeFellowship/CodefellowshipApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
