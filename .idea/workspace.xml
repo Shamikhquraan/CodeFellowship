@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb819ccc-ed0a-40f7-829b-5abd6165fd8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/CodefellowshipApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Controllers/AppUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Models/AppUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Models/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Repositories/ApplicationUserRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Repositories/PostRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Security/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/com/example/codeFellowship/Security/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/main/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/test/com/example/codeFellowship/CodefellowshipApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Controllers/AppUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Controllers/AppUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../algorithmmss/data-structures-and-algorithms-401/trees" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -147,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
