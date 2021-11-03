@@ -1,4 +1,4 @@
-package com.example.codeFellowship.Secusrity;
+package com.example.codeFellowship.Security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

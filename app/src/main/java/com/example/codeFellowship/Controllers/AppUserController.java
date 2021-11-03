@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,7 +19,6 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import java.security.Principal;
 import java.util.ArrayList;
-import java.util.List;
 
 @Controller
 public class AppUserController {
@@ -63,6 +61,7 @@ public class AppUserController {
     public String userPage(@PathVariable AppUser user,Model model,Principal principal){
         AppUser authUser=appUserRepository.findByUsername(principal.getName());
         model.addAttribute("authUser",authUser);
+
         model.addAttribute("user",user);
         return "user";
     }
@@ -73,5 +72,24 @@ public class AppUserController {
         postRepository.save(post1);
         return new RedirectView("/user/"+user.getId());
     }
-
+    @PostMapping("/user/follow")
+    public RedirectView addFollower(int followedUser, Principal p) {
+        AppUser primaryUser = appUserRepository.findByUsername(p.getName());
+        primaryUser.addFollower(appUserRepository.findById(followedUser).get());
+        appUserRepository.save(primaryUser);
+        return new RedirectView("/user/"+followedUser);
+    }
+    @PostMapping("/users/unfollow")
+    public RedirectView removeFollower(int unfollowedUser, Principal p) {
+        AppUser primaryUser = appUserRepository.findByUsername(p.getName());
+        primaryUser.removeFollower(appUserRepository.findById(unfollowedUser).get());
+        appUserRepository.save(primaryUser);
+        return new RedirectView("/user/"+unfollowedUser);
+    }
+    @GetMapping("/feed/{user}")
+    public String feed(Model model,Principal principal){
+        AppUser authUser=appUserRepository.findByUsername(principal.getName());
+        model.addAttribute("authUser",authUser);
+        return "feed";
+    }
 }
