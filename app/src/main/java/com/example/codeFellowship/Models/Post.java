@@ -1,7 +1,6 @@
 package com.example.codeFellowship.Models;
 
 
-import com.example.codeFellowship.Models.AppUser;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
