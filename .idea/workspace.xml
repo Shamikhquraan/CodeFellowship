@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb819ccc-ed0a-40f7-829b-5abd6165fd8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/feed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CodeFellowship.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Repositories/HospitalRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/HospitalDetailsServicelmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/signuphosp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Controllers/AppUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Controllers/AppUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Models/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/codeFellowship/Security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/templates/user.html" afterDir="false" />
     </list>
@@ -68,7 +71,7 @@
       <map>
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
-        <entry key="JPA Structure" value="true" />
+        <entry key="JPA Structure" value="false" />
       </map>
     </option>
   </component>

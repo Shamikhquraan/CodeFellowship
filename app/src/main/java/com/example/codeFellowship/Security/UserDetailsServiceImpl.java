@@ -1,6 +1,7 @@
 package com.example.codeFellowship.Security;
 
 import com.example.codeFellowship.Repositories.ApplicationUserRepo;
+import com.example.codeFellowship.Repositories.HospitalRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

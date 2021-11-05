@@ -20,8 +20,13 @@ public class AppUser implements UserDetails {
     private String firstName;
     private String lastName;
     private String dateOfBirth;
-    private String bio;
+    private String blodType;
     private String authority;
+    private String placeName;
+    private String emailAdress;
+    private String phoneNum;
+
+
     @OneToMany(mappedBy = "appUser")
     private List<Post> posts;
 
@@ -37,19 +42,20 @@ public class AppUser implements UserDetails {
     public List<AppUser> usersFollowedBy;
     public AppUser(){}
 
-    public AppUser(String username, String password, String firstName, String lastName, String dateOfBirth, String bio,String authority) {
+    public AppUser(String username, String password, String firstName, String lastName, String dateOfBirth, String blodType,String authority, String placeName, String emailAdress, String phoneNum) {
         this.username = username;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
-        this.bio = bio;
+        this.blodType = blodType;
         this.authority=authority;
+        this.placeName=placeName;
+        this.emailAdress=emailAdress;
+        this.phoneNum=phoneNum;
+
     }
-    //    public AppUser(String username, String password) {
-//        this.username = username;
-//        this.password = password;
-//    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         SimpleGrantedAuthority simpleGrantedAuthority=new SimpleGrantedAuthority(authority);
@@ -126,13 +132,44 @@ public class AppUser implements UserDetails {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String getBio() {
-        return bio;
+
+    public String getblodType() {
+        return blodType;
     }
 
-    public void setBio(String bio) {
-        this.bio = bio;
+    public void setblodType(String blodType) {
+        this.blodType = blodType;
     }
+
+
+    public String getplaceName() {
+        return placeName;
+    }
+
+    public void setplaceName(String placeName) {
+        this.placeName = placeName;
+    }
+
+
+
+
+    public String getemailAdress() {
+        return emailAdress;
+    }
+
+    public void setemailAdress(String emailAdress) {
+        this.emailAdress=emailAdress;
+    }
+
+
+    public String getphoneNum() {
+        return phoneNum;
+    }
+
+    public void setphoneNum(String phoneNum) {
+        this.phoneNum=phoneNum;
+    }
+
 
     public int getId() {
         return id;

@@ -1,8 +1,10 @@
 package com.example.codeFellowship.Controllers;
 
 import com.example.codeFellowship.Models.AppUser;
+import com.example.codeFellowship.Models.Hospital;
 import com.example.codeFellowship.Models.Post;
 import com.example.codeFellowship.Repositories.ApplicationUserRepo;
+import com.example.codeFellowship.Repositories.HospitalRepo;
 import com.example.codeFellowship.Repositories.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -30,15 +32,36 @@ public class AppUserController {
 
     @Autowired
     PostRepository postRepository;
+    @Autowired
+    HospitalRepo hospital;
+
     @GetMapping("/signup")
     public String getSignUpPage(){
         return "signup";
     }
 
-    @PostMapping("/signup")
-    public RedirectView signUpUser(@RequestParam String username, @RequestParam String password,@RequestParam String firstName,@RequestParam String lastName,@RequestParam String dateOfBirth,@RequestParam String bio){
-        AppUser appUser = new AppUser(username, encoder.encode(password),firstName,lastName,dateOfBirth,bio,"ROLE_USER");
+
+
+        @PostMapping("/signup")
+    public RedirectView signUpUser(@RequestParam String username, @RequestParam String password,@RequestParam String firstName,@RequestParam String lastName,@RequestParam String dateOfBirth,@RequestParam String blodType
+    ,@RequestParam String placeName , @RequestParam String emailAdress ,  @RequestParam String phoneNum  ){
+        AppUser appUser = new AppUser(username, encoder.encode(password),firstName,lastName,dateOfBirth,blodType,placeName,emailAdress,phoneNum,"ROLE_USER");
         appUserRepository.save(appUser);
+        Authentication authentication = new UsernamePasswordAuthenticationToken(appUser, null, new ArrayList<>());
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+        return new RedirectView("/");
+    }
+
+
+    @GetMapping("/signuphosp")
+    public String getSignUpPageHos(){
+        return "signuphosp";
+    }
+
+    @PostMapping("/signuphosp")
+    public RedirectView signUpUser(@RequestParam String username, @RequestParam String password,@RequestParam String placeName ){
+        Hospital appUser = new Hospital(username, encoder.encode(password),placeName);
+        hospital.save(appUser);
         Authentication authentication = new UsernamePasswordAuthenticationToken(appUser, null, new ArrayList<>());
         SecurityContextHolder.getContext().setAuthentication(authentication);
         return new RedirectView("/");
